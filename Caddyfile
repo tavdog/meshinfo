@@ -2,11 +2,11 @@
 	debug
 }
 
-localhost {
+dkr2.wildc.net {
 	root * /srv
 	encode gzip
 	file_server
-	tls internal
+	tls dkr2@wildc.net
 	log {
 		output file /var/log/caddy.log
 	}
